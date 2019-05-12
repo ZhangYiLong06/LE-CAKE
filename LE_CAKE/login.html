@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CAKE_login</title>
+    <!-- <link rel="stylesheet" href="css/loginpublic.css"> -->
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/PublicStyle.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="top" style="height:90px;">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div id="banner">
+    <!-- banner图 -->
+        <a href="#">
+            <img src="images/loginbanner.jpg">
+        </a>
+    <!-- 登录框 -->
+        <div id="main" style="top:25px;">
+                <div class="login">
+                    <div class="login-t cont">
+                        <h4 class="clear">
+                            <p class="zuo l">手机验证登录</p>
+                            <span class="message">|</span>
+                            <p class="you l">账户密码登录</p>
+                        </h4>
+                        <div class="account clear">
+                            <i></i>
+                            <input type="text" placeholder="手机号码" id="txt" autocomplete="off" />
+                        </div>
+                        <div class="cipher clear">
+                            <i></i>
+                            <input type="password" placeholder="请输入验证码" id="pass" autocomplete="off" />
+                            <p class="huanyige" style="position: absolute;right: 55px;top:139px;">
+                                <img src="images/yanzhengma.png" style="width:60px;height:50px;">
+                                <a href="#" style="margin-right:14px;">换一个</a>
+                            </p>
+                        </div>
+                        <div class="code clear">
+                            <i></i>
+                            <input type="password" placeholder="短信验证码" id="pass" autocomplete="off" />
+                            <input type="button" id="yanzheng" value="发送验证码"
+                                style="background:orangered;color:#FFF;border:0;position:absolute;width:100px;padding:0;margin-left:5px;cursor: pointer;"
+                                autocomplete="off" />
+                        </div>
+        
+                        <!-- 登录区下部 -->
+                        <div class="login-d">
+                            <div class="login-d-t">
+                                <input class="lijidenglu" type="button" value="立即登录">
+                            </div>
+                            <div class="login-d-d">
+                                <a class="wangjimima" href="#">忘记密码</a>
+                                <p>还没有账号？<a class="reg l" href="#">立即注册</a></p>
+                            </div>
+                        </div>
+        
+                        <div class="login-b">
+                            <div class="login-b1">
+                                <b></b>
+                                <p>其它登录方式</p>
+                                <b></b>
+                            </div>
+                            <div class="login-b2">
+                                <i class="i1"></i>
+                                <i class="i2"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="login-t2 cont">
+                        <h4 class="clear">
+                            <p class="zuo">手机验证登录</p>
+                            <span class="message">|</span>
+                            <p class="you">账户密码登录</p>
+                        </h4>
+                        <div class="account clear">
+                            <i></i>
+                            <input type="text" placeholder="请输入账号" id="user" autocomplete="off" />
+                        </div>
+                        <div class="cipher clear">
+                            <i></i>
+                            <input type="password" placeholder="请输入密码" id="passaa" autocomplete="off" />
+                        </div>
+                        <!-- 登录区下部 -->
+                        <div class="login-d">
+                            <div class="login-d-t">
+                                <input class="lijidenglu" type="button" value="立即登录" autocomplete="off" id="btn" style="cursor:pointer;">
+                            </div>
+                            <div class="login-d-d">
+                                <a class="wangjimima" href="#">忘记密码</a>
+                                <p>还没有账号？<a class="reg l" href="#">立即注册</a></p>
+                            </div>
+                        </div>
+        
+                        <div class="login-b">
+                            <div class="login-b1">
+                                <b></b>
+                                <p>其它登录方式</p>
+                                <b></b>
+                            </div>
+                            <div class="login-b2">
+                                <i class="i1"></i>
+                                <i class="i2"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="login-t3 cont">
+                        <h4 class="clear">
+                            <p class="zuo">手机快捷注册</p>
+                            <span class="message">|</span>
+                            <p class="you">已有账户？<a href="#">请登录</a></p>
+                        </h4>
+                        <div class="account clear">
+                            <i></i>
+                            <input type="text" placeholder="手机号码" id="login_user" autocomplete="off" />
+                        </div>
+        
+                        <div class="code clear">
+                            <i></i>
+                            <input type="password" placeholder="短信验证码" id="login_pass" autocomplete="off" />
+                            <input type="button" id="yanzheng" value="发送验证码"
+                                style="background:orangered;color:#FFF;border:0;position:absolute;width:100px;padding:0;margin-left:5px;cursor: pointer;"
+                                autocomplete="off">
+                        </div>
+        
+                        <!-- 登录区下部 -->
+                        <div class="login-d">
+                            <div class="login-d-t">
+                                <input class="lijidenglu" id="lijidenglu" type="button" value="立即注册">
+                            </div>
+                            <div class="login-d-b">
+                                <input type="checkbox"
+                                    style="width:16px;height:16px;transform: translateX(5px) translateY(4px)">
+                                <p>我已阅读并同意<a class="reg l" href="#">《诺心lecake用户服务协议》</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+    </div>
+    <!-- 底部 -->
+    <div id="footer">
+        <!-- 侧边栏  -->
+        <div class="footer_online">
+            <a class="hover_img" href="#">
+                <img src="images/erweima.png">
+                <p>微信公众号</p>
+                <i></i>
+            </a>
+            <a class="zaixian_kefu" href="#">
+                <p>在线客服</p>
+                <i></i>
+            </a>
+        </div>
+        <!-- 底部 -->
+        <div class="footer_tel">
+            <p>
+                <i></i>
+                <span>客服电话：4001-578-578 服务时间（08:30-22:30）</span>
+            </p>
+        </div>
+        <div class="footer_nav">
+            <p>
+                <a href="#">诺心公告</a>
+                <a href="#">关于诺心</a>
+                <a href="#">联系我们</a>
+                <a href="#">客服服务</a>
+                <a href="#">食品经营许可证</a>
+                <a href="#">生产许可证</a>
+                <a href="#">预付费卡协议</a>
+                <a class="tea" href="#">
+                    <i></i>
+                    上海工商
+                </a>
+            </p>
+        </div>
+        <div class="footer_address">
+            <p>
+                诺心食品（上海）有限公司 &nbsp;&nbsp;上海徐汇区田林路140号28号楼503室 客服邮箱：services@lecake.com 公司电话：4001-578-578
+            </p>
+        </div>
+        <div class="footer_copy">
+            <p>
+                copyright©2010-2019 诺心lecake.com版权所有<a href="http://www.beian.miit.gov.cn">沪ICP备10211730号</a>
+            </p>
+        </div>
+    </div>
+    
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/login.js"></script>
+<script>
+    class Login{
+        constructor(){
+            this.user = document.getElementById("user");
+            this.pass = document.getElementById("passaa");
+            this.btn = document.getElementById("btn");
+            this.span = document.querySelector("span");
+
+            this.init();
+           
+        }
+        init(){
+            var that = this;
+            this.btn.onclick = function(){
+                that.yanzheng();
+            }
+        }
+        getData(){
+            this.abc = localStorage.getItem("abc");
+            // 读取localStorage，如果有就解析成数组，如果没有就给一个空数组，方便操作
+            if(this.abc == null){
+                this.abc = [];
+            }else{
+                this.abc = JSON.parse(this.abc)
+            }
+        }
+        yanzheng(){
+            this.getData();
+            
+            for(var i=0;i<this.abc.length;i++){
+                console.log(this.abc[i].user,this.user.value,this.abc[i].pass,this.pass.value)
+                if(this.abc[i].user == this.user.value && this.abc[i].pass == this.pass.value){
+                    console.log(1)
+                    alert("登录成功,点击确认跳转到首页");
+
+                    this.abc[i].onoff = 1;
+
+                    localStorage.setItem("abc",JSON.stringify(this.abc))
+
+                    setTimeout(()=>{
+                        location.href = "index.html";
+                    },3000)
+                    return;
+                }
+            }
+            this.span.innerHTML = "用户名密码不符";
+        }
+    }
+    new Login();
+
+    class Register{
+        constructor(){
+            this.user = document.getElementById("login_user");
+            this.pass = document.getElementById("login_pass");
+            this.btn = document.getElementById("lijidenglu");
+            this.span = document.querySelector("span");
+            this.init();
+            this.getData()
+        }
+        init(){
+        var that = this;
+        this.btn.onclick = function(){
+            that.setData();
+            }
+        }
+        getData(){
+            this.abc = localStorage.getItem("abc")
+            if(this.abc == null){
+                this.abc = []
+            }else{
+                this.abc = JSON.parse(this.abc)
+            }
+        }
+        setData(){
+            if(this.abc.length == 0){
+                this.abc.push({
+                    user:this.user.value,
+                    pass:this.pass.value,
+                    onoff:0
+                })
+                this.span.innerHTML = "注册成功";
+                localStorage.setItem("abc",JSON.stringify(this.abc))
+            }else{
+                for(var i = 0;i<this.setData.length;i++){
+                    if(this.abc[i].user === this.user.value){
+                        this.span.innerHTML = "名字已占用";
+                        return;
+                    }
+                }
+                this.abc.push({
+                    user:this.user.value,
+                    pass:this.pass.value,
+                    onoff:0
+                })
+                this.span.innerHTML = "注册成功";
+                localStorage.setItem("abc",JSON.stringify(this.abc))
+            }
+        }
+    }
+    new Register();
+
+</script>
+</html>

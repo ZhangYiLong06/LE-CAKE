@@ -1,0 +1,79 @@
+<?php
+    $cake = array(
+        0=>array(
+            "src"=>"images/6.jpg",
+            "name"=>"雪域牛乳芝士蛋糕·浓4.9",
+            "price"=>"￥298",
+            "goodsId"=>"0",
+        ),
+        1=>array(
+            "src"=>"images/7.jpg",
+            "name"=>"雪域牛乳芝士蛋糕·花样4.9",
+            "price"=>"￥336.00",
+            "goodsId"=>"1",
+        ),
+        2=>array(
+            "src"=>"images/8.jpg",
+            "name"=>"雪域莓莓芝士蛋糕·浓4.9",
+            "price"=>"￥9999.00",
+            "goodsId"=>"2",
+        ),
+        3=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        4=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9" ,
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        5=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        6=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        7=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        8=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        9=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        10=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        11=>array(
+            "src"=>"images/9.jpg",
+            "name"=>"雪域曲奇芝士蛋糕·浓4.9",
+            "price"=>"￥8888.00",
+            "goodsId"=>"3",
+        ),
+        
+    );
+    
+        echo json_encode($cake);
+?>
