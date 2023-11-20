@@ -1,5 +1,5 @@
-# top3
-二升三项目
+# LE CAKE
+纯静态网页（仿照诺心蛋糕官网 https://www.lecake.com/）
 文件夹：
 1.ajax文件夹：
 	ajax.2.0 封装ajax函数，向后台（php）请求数据
